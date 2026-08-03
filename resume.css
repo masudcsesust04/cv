@@ -104,6 +104,7 @@ li{
 
 .main-block{
   margin-top: 0.1in;
+  margin-left: -62px;
 }
 
 #main h2{
@@ -152,6 +153,18 @@ li{
 
 #main h2 > .fa-folder-open{
   top: 1.5pt;
+}
+
+#section-skills h2 {
+  left: 0.75in;
+}
+
+#section-skills .date {
+  flex: 0 0 0.55in;
+}
+
+#section-skills .details {
+  padding-left: 0.2in;
 }
 
 /**** individual row blocks (date - decorator - details) ****/
@@ -352,8 +365,9 @@ li{
 }
 
 #contact li > i, #links li > i{
-  width: 9pt; /* for text alignment */
-  text-align: right;
+  display: inline-block;
+  width: 16pt;
+  text-align: center;
 }
 
 #skills{
